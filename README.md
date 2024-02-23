@@ -13,6 +13,7 @@
   * ZWave https://www.home-assistant.io/integrations/zwave_js/
   * Node-Red als "LOW CODE" Javascript Fuctions Programmierung https://nodered.org/
   * HACS für Inoffizielle Erweiterungen https://hacs.xyz/
+  * tailscale vpn
    
 ## Geräte (SERVER)
 * Rasperry 4 (Home Assistant OS)
