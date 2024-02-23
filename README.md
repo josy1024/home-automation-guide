@@ -26,13 +26,12 @@
 ## Geräte (AKTOREN)
 * Herstellerunabhängigkeit mit Zigbee und Zwave Gateway (Ikea, Sonoff, Ayotec, Fibaro, Ledvance(ehem. Osram), TPLink, Tapo, Fronius, Rika, Tasmota ...)
  
-[[docs/devices|docs/devices.md]]
-
-## links
-
 ## Prozesse / Aufgaben
 * Infrarot Heizungssteuerung
 * WarmwasserBoilder Steuerung abhängig von PV Leistung
-* AlexaIntegration fürs Licht 
+* AlexaIntegration fürs Licht, Schaltbare Steckdosen, ...
+
+
+## links
 
 ## scripts
