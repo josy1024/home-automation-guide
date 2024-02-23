@@ -14,6 +14,7 @@
   * Node-Red als "LOW CODE" Javascript Fuctions Programmierung https://nodered.org/
   * HACS für Inoffizielle Erweiterungen https://hacs.xyz/
   * tailscale vpn
+  * plotly-graph
    
 ## Geräte (SERVER)
 * Rasperry 4 (Home Assistant OS)
