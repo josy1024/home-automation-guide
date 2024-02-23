@@ -31,7 +31,7 @@
 * WarmwasserBoilder Steuerung abhängig von PV Leistung
 * AlexaIntegration fürs Licht, Schaltbare Steckdosen, ...
 
-
-## links
-
 ## scripts
+* 
+## links
+* Tipps/Inspirationen: [simon42](https://www.simon42.com/)https://www.simon42.com/
