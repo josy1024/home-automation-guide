@@ -34,8 +34,9 @@
 * AlexaIntegration fürs Licht, Schaltbare Steckdosen, ...
 
 ## Photovoltaik
-* EET Solmate G Wechselrichter mit AKKU (hat eigenen py SDK)
+* EET Solmate G Wechselrichter mit AKKU, hat eigenen [py SDK](https://github.com/eet-energy/solmate-sdk)
 * Fronius Gen24
+* 
 
 ## scripts
 
