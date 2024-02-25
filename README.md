@@ -7,7 +7,7 @@
 ## docs
 
 ## Software
-* https://www.home-assistant.io/
+* [Home Assistant](https://www.home-assistant.io/)
   * MQTT: [Mosquitto MQTT](https://mosquitto.org/)
   * Zigbee2MQTT https://github.com/zigbee2mqtt/hassio-zigbee2mqtt
   * ZWave https://www.home-assistant.io/integrations/zwave_js/
@@ -33,7 +33,11 @@
 * WarmwasserBoilder Steuerung abhängig von PV Leistung
 * AlexaIntegration fürs Licht, Schaltbare Steckdosen, ...
 
+## Photovoltaik
+* EET Solmate G Wechselrichter mit AKKU (hat eigenen py SDK)
+* Fronius Gen24
+
 ## scripts
-* 
+
 ## links
 * Tipps/Inspirationen: [simon42](https://www.simon42.com/)https://www.simon42.com/
