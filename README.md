@@ -17,7 +17,7 @@
   * plotly-graph
    
 ## Geräte (SERVER)
-* Rasperry 4 (Home Assistant OS)
+* Rasperry 4, 4GB-RAM (Home Assistant OS)
   * Ayotec Z Stick 7 Zwave USB
   * Conbee 2 USB (Zigbee)
     
