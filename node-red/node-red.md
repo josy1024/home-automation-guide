@@ -5,7 +5,7 @@
 * Einspeiseoptimierung mit Node-Red
 * Alexa Integration
 * IR Heizungsteuerung, Lüftung
-* Licht: Dynamische Tagesabhängige Beleuchtung, Stimmunsbeleuchtung (WLED)
+* Licht: Dynamische Tagesabhängige Beleuchtung, Stimmungsbeleuchtung (WLED)
 * Telegram Notifications
 * Rauchmelder, Tür/Fenster Melder
 
