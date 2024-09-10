@@ -1,7 +1,12 @@
-# multi channel notification with Home-Assistant
-# trigger on input_text.whispermessage 
-  # Alexa (with HACS) 
-  # Telegram (with Node-Red Integration)
+
+
+#  multi channel notification with Home-Assistant
+
+* trigger on input_text.whispermessage
+  * Alexa (with HACS) 
+  * Telegram (with Node-Red Integration)
+
+```yaml
 
 service: notify.alexa_media_room
 data:
@@ -12,8 +17,11 @@ data:
   data:
     type: tts
 
-# Node-Red Function:
+```
 
+## Node-Red Function
+
+```js
 var text = msg.payload;
 msg.payload = {};
 
@@ -25,3 +33,4 @@ msg.payload.chatId = -#REPLACECHATID#
 msg.payload.parse_mode ="MarkdownV2" 
 msg.payload.type = "message";
 return msg;
+```
