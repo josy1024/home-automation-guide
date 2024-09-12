@@ -12,6 +12,7 @@
 ## Einspeiseoptimierung (Nulleinspeisung)
 
 ![PID Regelung über den Tag](pid-regler-tages-dynamik-mit-pv.png)
+![Ergebnis der Regelung in EET APP](graph_eet.png)
 
 * der PID-Regler Regelt die Einspeiseleistung auf 10 Watt Bezug (Minimalbezug).
     Nachdem ob EET nur "grob" auch das liefert, was eingestellt ist, Regelt das System die "min und max Einspeiseleistungsvorgaben" "etwas" nach.
