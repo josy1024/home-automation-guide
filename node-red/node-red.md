@@ -10,9 +10,10 @@
 * Rauchmelder, Tür/Fenster Melder
 
 ## Einspeiseoptimierung (Nulleinspeisung)
-
-![PID Regelung über den Tag](pid-regler-tages-dynamik-mit-pv.png)
-![Ergebnis der Regelung in EET APP](graph_eet.png)
+* PID Regelung über den Tag
+<img src="pid-regler-tages-dynamik-mit-pv.png" height="300px">
+* Ergebnis der Regelung in EET APP
+<img src="graph_eet.png" height="300px">
 
 * der PID-Regler Regelt die Einspeiseleistung auf 10 Watt Bezug (Minimalbezug).
     Nachdem ob EET nur "grob" auch das liefert, was eingestellt ist, Regelt das System die "min und max Einspeiseleistungsvorgaben" "etwas" nach.
