@@ -13,6 +13,8 @@
   * Zigbee2MQTT https://github.com/zigbee2mqtt/hassio-zigbee2mqtt
   * ZWave https://www.home-assistant.io/integrations/zwave_js/
   * [Node-Red](node-red/node-red.md) als "LOW CODE" Javascript Fuctions Programmierung https://nodered.org/
+    * [Local Alexa Integration](https://flows.nodered.org/node/node-red-contrib-amazon-echo)
+    * use "Call Service"-Nodes to control HA Entities
   * HACS für Inoffizielle Erweiterungen https://hacs.xyz/
   * tailscale vpn
   * plotly-graph
