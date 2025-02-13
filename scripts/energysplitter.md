@@ -3,15 +3,15 @@
 * devide "sensor.op1_energy_smooth" in 2 different energy sensors (op1_energy_smooth_drying, op1_energy_smooth_washing)  based on washing machine state
 
  
-## input power
+## input: sensors and states
 * sensor.op1_energy_smooth [kwh]
 * washer state check: 'sensor.waschi_aktueller_status', 'drying'
 
-## previus input numbers
+## helper: previus input numbers
 * input_number.previous_op1_energy_smooth [kwh]
 * input_number.previous_op1_energy_smooth_drying [kwh]
 
-## sensor.op1_energy_smooth_drying [kwh]
+## template: sensor.op1_energy_smooth_drying [kwh]
 ```yaml
 {% set current_energy = states('sensor.op1_energy_Smooth') | float %}
 {% set previous_energy = states('input_number.previous_op1_energy_smooth') | float %}
@@ -26,7 +26,7 @@
 {% endif %}
 ```
 
-## sensor.op1_energy_smooth_washing [kwh]
+## template: sensor.op1_energy_smooth_washing [kwh]
 ```yaml
 {% set total_energy = states('sensor.op1_energy_Smooth') | float %}
 {% set drying_energy = states('sensor.op1_energy_smooth_drying') | float %}
